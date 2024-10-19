@@ -1,5 +1,5 @@
 // made for educational purposes only
-// made by i
+// made by i.
 #include <Windows.h>
 #include <string>
 #include <regex>
