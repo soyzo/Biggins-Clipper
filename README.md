@@ -1,18 +1,14 @@
 # Biggins-Clipper
 This C++ application monitors the clipboard for cryptocurrency addresses and automatically replaces them with predefined addresses.
 
-Supports:
+- Supports Mutliple Coins:  BTC, ETH, LTC, XMR, SOL, RAY, and BONK.
 
- BTC, ETH, LTC, XMR, SOL, RAY, and BONK.
+- Clipboard Monitoring: Continuously checks clipboard contents for specific cryptocurrency addresses.
 
-Features:
+- Address Replacement: Automatically replaces detected addresses with predefined addresses for various cryptocurrencies.
 
--Clipboard Monitoring: Continuously checks clipboard contents for specific cryptocurrency addresses.
+- Crypto Address Validation: Utilizes regex patterns to accurately identify different types of cryptocurrency addresses.
 
--Address Replacement: Automatically replaces detected addresses with predefined addresses for various cryptocurrencies.
+- Auto-Start Functionality: Configures the application to run at system startup by adding an entry to the Windows registry.
 
--Crypto Address Validation: Utilizes regex patterns to accurately identify different types of cryptocurrency addresses.
-
--Auto-Start Functionality: Configures the application to run at system startup by adding an entry to the Windows registry.
-
--Minimal Resource Usage: Runs in a lightweight loop with a sleep interval, minimizing CPU usage.
+- Minimal Resource Usage: Runs in a lightweight loop with a sleep interval, minimizing CPU usage.
