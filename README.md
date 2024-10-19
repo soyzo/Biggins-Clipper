@@ -2,6 +2,7 @@
 This C++ application monitors the clipboard for cryptocurrency addresses and automatically replaces them with predefined addresses.
 
 Supports:
+
  BTC, ETH, LTC, XMR, SOL, RAY, and BONK.
 
 Features:
